@@ -43,11 +43,11 @@ principal()
         let resultado = 0;
         switch (deMoneda) {
             default:
-                resultado = (cantidad * objInicial.ultimoCierre)
-            /objFinal.ultimoCierre;
+                resultado = (cantidad * objInicial.ultimoCierre) / objFinal.ultimoCierre;
                 break;
-        
-         }
+        }
+
+        h1Resultado.textContent = resultado;
     })
 }
     
